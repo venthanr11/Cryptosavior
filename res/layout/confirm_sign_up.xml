@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iimages" >
+    
+    <TextView
+        android:id="@+id/csignuptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/signup_text2"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/csupmk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/csignuptext"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/csuplogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/csupmk"
+        android:layout_alignBottom="@+id/csupmk"
+        android:layout_alignParentRight="true"
+        android:text="@string/done" />
+
+    <Button
+        android:id="@+id/csupone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/csupmk"
+        android:layout_below="@+id/csuplogin"
+        android:layout_marginTop="22dp"
+        android:text="@string/one" />
+
+    <Button
+        android:id="@+id/csuptwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/csupone"
+        android:layout_alignBottom="@+id/csupone"
+        android:layout_centerHorizontal="true"
+        android:text="@string/two" />
+
+    <Button
+        android:id="@+id/csupthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/csuptwo"
+        android:layout_alignBottom="@+id/csuptwo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:text="@string/three" />
+
+    <Button
+        android:id="@+id/csupfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/csupone"
+        android:layout_below="@+id/csupone"
+        android:layout_marginTop="25dp"
+        android:text="@string/four" />
+
+    <Button
+        android:id="@+id/csupfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/csupfour"
+        android:layout_alignRight="@+id/csuptwo"
+        android:text="@string/five" />
+
+    <Button
+        android:id="@+id/csupsix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/csupfive"
+        android:layout_alignRight="@+id/csupthree"
+        android:text="@string/six" />
+
+    <Button
+        android:id="@+id/csupseven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/csupfour"
+        android:layout_below="@+id/csupfour"
+        android:layout_marginTop="24dp"
+        android:text="@string/seven" />
+
+    <Button
+        android:id="@+id/csupeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/csupseven"
+        android:layout_alignBottom="@+id/csupseven"
+        android:layout_alignLeft="@+id/csupfive"
+        android:text="@string/eight" />
+
+    <Button
+        android:id="@+id/csupnine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/csupeight"
+        android:layout_alignBottom="@+id/csupeight"
+        android:layout_alignRight="@+id/csupsix"
+        android:text="@string/nine" />
+
+    <Button
+        android:id="@+id/csupzero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/csupeight"
+        android:layout_below="@+id/csupeight"
+        android:layout_marginTop="27dp"
+        android:text="@string/zero" />
+
+    <Button
+        android:id="@+id/csupdel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/csupzero"
+        android:layout_alignRight="@+id/csupnine"
+        android:text="@string/del" />
+    
+
+</RelativeLayout>

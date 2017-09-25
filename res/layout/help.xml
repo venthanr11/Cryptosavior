@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iimages" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crypto_savior"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/features"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/features_text"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/features_text1" 
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/features_text2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/master_key"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/master_key_text" 
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secure"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secure_text"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secure_text1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="57dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secure_text2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iimages" >
+
+    <TextView
+        android:id="@+id/securityQuesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/security_question"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/securityQuesText"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/question"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/questionTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/question"
+        android:layout_alignRight="@+id/securityQuesText"
+        android:layout_below="@+id/question"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="@string/hintSQ"
+        android:inputType="text">
+        
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/questionTextBox"
+        android:layout_below="@+id/questionTextBox"
+        android:layout_marginTop="40dp"
+        android:text="@string/answer"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/answerTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/answer"
+        android:layout_below="@+id/answer"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="@string/hintSQA"
+        android:inputType="text" >
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/submitSQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answerTextBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/submit" />
+
+</RelativeLayout>

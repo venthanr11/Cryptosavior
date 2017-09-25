@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iimages" >
+
+    <TextView
+        android:id="@+id/fmkQuesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/forgot_masterkey_text"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <TextView
+        android:id="@+id/fmkquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fmkQuesText"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/question"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/fmkquestionTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fmkquestion"
+        android:layout_alignRight="@+id/fmkQuesText"
+        android:layout_below="@+id/fmkquestion"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="@string/hintSQ"
+        android:inputType="text">
+
+
+		<requestFocus />
+		</EditText>
+    <TextView
+        android:id="@+id/fmkanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fmkquestionTextBox"
+        android:layout_below="@+id/fmkquestionTextBox"
+        android:layout_marginTop="40dp"
+        android:text="@string/answer"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <EditText
+        android:id="@+id/fmkanswerTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fmkanswer"
+        android:layout_below="@+id/fmkanswer"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="@string/hintSQA"
+        android:inputType="text" >
+
+    </EditText>
+
+
+
+
+    <Button
+        android:id="@+id/fmksubmitSQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fmkanswerTextBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/submit" />
+    
+</RelativeLayout>

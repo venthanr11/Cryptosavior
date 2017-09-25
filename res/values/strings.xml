@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">CryptoSavior</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">CryptoSavior</string>
+    <string name="header">You Know What To Enter</string>
+    <string name="login">Login</string>
+    <string name="crypto_savior">CryptoSavior</string>
+    <string name="features">Features</string>
+    <string name="features_text">CryptoSavior offers a comfortable and secure way to keep
+        files with confidential data encrypted. It uses AES encryption. A MasterKey is 
+        used to access the application and to encrypt the files as well.</string>
+    <string name="features_text1">Confidential files are accessible directly in a list
+        after the login. With one click on the file, an option to open the file with appropriate
+        application is provided along with an option to decrypt as well. The file can be encrypted 
+        back after viewing.</string>    
+    <string name="features_text2">The Original file is over-written with random bytes before 
+        deletion, after the encryption process is over. As a result, even in case of lost or 
+        stolen device, the original file can not be retrieved back with "File Recovery tools".</string>
+    <string name="master_key">Master Key</string>
+    <string name="master_key_text">The MasterKey, as the name suggests is the central key to 
+        access the application and encrypt the files as well. It is highly recommended that a longer key is
+        used as a MasterKey and be kept safe. If one forgets the Key, all encrypted files will be 
+        lost.</string>
+    <string name="secure">How secure is CryptoSavior?</string>
+    <string name="secure_text">We can ensure the security of CryptoSavior by looking at the following likely scenarios
+        that can happen:</string>
+    <string name="secure_text1">1) The Device is attacked by a malicious app, with rights to read
+        the SD card contents.\n
+        2)The SD card is lost or stolen.\n
+        3)The Device is lost or stolen along with the SD card.</string>
+    <string name="secure_text2">If the attacker has access only to the encrypted files(Scenario 1), 
+        extreme computing power and ages of time to decrypt the files using brute-force methods. 
+        If the attacker has direct access to the SD card or Phone(Scenario 2 and 3), he is required
+        to have root privileges and it is totally dependent on the length of the MasterKey. So it
+        is highly recommended that a lengthy key is used with no compromise for security with regard
+        to comfort.</string>    
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="del">Del</string>
+    <string name="signup">Sign Up</string>
+    <string name="signup_text">Enter Your MasterKey</string>
+    <string name="signup_text2">Re-Enter Your MasterKey</string>
+    <string name="done">Done</string>
+    <string name="home">You Have Successfully Logged In!!</string>
+    <string name="hint">No File Has Been Selected</string>
+    <string name="browse">Browse</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="etText">No File Selected</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="change_masterkey">Change MasterKey</string>
+    <string name="aboutText">© Copyright 2012 20XX CryptoSavior  All Rights Reserved</string>
+    <string name="ck_text">Enter Your Old MasterKey</string>
+    <string name="ckn_text">Enter New MasterKey</string>
+    <string name="encFilesList">List of Encrypted Files</string>
+    <string name="security_question">Security Question</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="submit">Submit</string>
+    <string name="hintSQ">Enter the security question here</string>
+    <string name="hintSQA">Enter answer here</string>
+    <string name="forgot_masterkey_text">Forgot MasterKey</string>
+    <string name="no_history">You have no History of Encryption</string>
+    <string name="history_text">History of Encryption</string>
+    <string name="no_files">No Files are currently Encrypted</string>
+
+</resources>

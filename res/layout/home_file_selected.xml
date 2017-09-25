@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iimages" >
+    
+        <EditText
+        android:id="@+id/hfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:paddingTop="30dp"
+        android:inputType="textNoSuggestions" />
+
+    <Button
+        android:id="@+id/hbrowse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hfileName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:text="@string/browse" />
+
+    <Button
+        android:id="@+id/hencrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hfileName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/encrypt" />
+
+</RelativeLayout>
